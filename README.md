@@ -2,7 +2,7 @@
 
 A modern desktop productivity application built with Tauri, React, and TypeScript. Track your activities, manage your time with a Pomodoro-style focus timer, and export your data to PDF.
 
-![MegaTask App]()
+![MegaTask App](./public/megatask.png)
 
 ## Features
 
