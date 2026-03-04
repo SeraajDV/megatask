@@ -88,6 +88,24 @@ npm run build
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
+## Distribution Files
+
+After building with `npm run build`, the following executable and installer files are generated:
+
+### EXE File
+
+- **Location**: `src-tauri/target/release/Megatask.exe`
+- **Description**: Standalone executable for Windows
+- **Usage**: Run the application directly without installation
+
+### MSI Installer
+
+- **Location**: `src-tauri/target/release/bundle/msi/Megatask_*.msi`
+- **Description**: Windows Installer package for MegaTask
+- **Usage**: Install the application on Windows systems with automatic start menu entries and uninstall support
+
+Both files are created during the Tauri build process and are ready for distribution to end users.
+
 ## Project Structure
 
 ```
